@@ -26,7 +26,6 @@ To run the web app, perform the following command in the terminal:
 cd path/to/directory
 streamlit run app.py
 ```
-<<<<<<< HEAD
 
 # Object detection results
 
@@ -34,5 +33,4 @@ streamlit run app.py
 | ----------------------- | ------------- | ------------------ |
 | Validation(all classes) | 96.9          | 77.2               |
 | Testing(all classes)    | 92.1          | 68.3               |
-=======
->>>>>>> 659b78879dd52d782b9cc80d5349d458413f6221
+
