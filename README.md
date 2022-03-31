@@ -2,6 +2,7 @@
 A streamlit-aided web app for Income Tax Return field extraction. 
 
 Pipeline:
+
 Image annotation -> Object Detection -> Extract ROI -> OCR -> Requisite text
 
 # How to get started ?
