@@ -1,5 +1,8 @@
 # ITR Extractor
-A streamlit-aided web app for Income Tax Return field extraction.
+A streamlit-aided web app for Income Tax Return field extraction. 
+
+Pipeline:
+Image annotation -> Object Detection -> Extract ROI -> OCR -> Requisite text
 
 # How to get started ?
 
@@ -23,3 +26,10 @@ To run the web app, perform the following command in the terminal:
 cd path/to/directory
 streamlit run app.py
 ```
+
+# Object detection results
+
+| Image set               | mAP @ 0.5     | mAP @ 0.5:0.95     |
+| ----------------------- | ------------- | ------------------ |
+| Validation(all classes) | 96.9          | 77.2               |
+| Testing(all classes)    | 92.1          | 68.3               |
