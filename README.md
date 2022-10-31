@@ -5,6 +5,11 @@ Pipeline:
 
 Image annotation -> Object Detection -> Extract ROI -> OCR -> Requisite text
 
+
+# DEMO:
+
+![](./demo.gif)
+
 # How to get started ?
 
 1. Refer [custom training tutorial](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) for yolov5 - it is recommending to use one of their ready-made environments for training in order to avoid dependency issues 
